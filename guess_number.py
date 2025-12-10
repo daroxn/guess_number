@@ -7,11 +7,9 @@ while True:
 
     if user_int < system_int:
         print('Ваше число меньше того, что загадано')
-
-    if user_int > system_int:
+    elif user_int > system_int:
         print('Ваше число больше того, что загадано')
-
-    if user_int == system_int:
+    elif user_int == system_int:
         break
 
 print('Отличная интуиция! Вы угадали число :)')
